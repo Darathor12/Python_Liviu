@@ -28,3 +28,5 @@ print(f"Acesta este un cerc cu diametrul {c1.get_diameter()} si aria {c1.get_are
 
 c1.describe()
 
+c2 = Circle(10, "Red")
+c2.describe()
