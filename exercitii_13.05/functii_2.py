@@ -1,3 +1,5 @@
+# 2. Funcție care să returneze TRUE dacă un număr este par, FALSE pentru impar
+
 def is_even(a):
     if a % 2 == 0:
         print(True)

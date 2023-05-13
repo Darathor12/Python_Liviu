@@ -1,4 +1,3 @@
-# 2. Funcție care să returneze TRUE dacă un număr este par, FALSE pentru impar
 
 def check_positive(a):
     if a > 0:
