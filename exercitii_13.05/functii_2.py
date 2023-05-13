@@ -1,13 +1,7 @@
-# 2. Funcție care să returneze TRUE dacă un număr este par, FALSE pentru impar
-
-def check_positive(a):
-    if a > 0:
-        # print("The number you introduced is positive!")
+def is_even(a):
+    if a % 2 == 0:
         print(True)
-    elif a < 0:
-        # print("The number you introduced is negative")
-        print(False)
     else:
-        print("Number is 0")
+        print(False)
 
-check_positive(float(input("Introduce a number to check its value:\n")))
+is_even(float(input("Introduce a number to check its parity:\n")))
