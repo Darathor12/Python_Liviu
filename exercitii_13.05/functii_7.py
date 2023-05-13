@@ -19,4 +19,3 @@ def count_characters(a):
     print(f"Uppecase letters nr. is:{uppercase}, lowercase letters nr. is: {lowercase}.")
 
 count_characters(a)
-
