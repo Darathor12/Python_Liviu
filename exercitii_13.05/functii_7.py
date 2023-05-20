@@ -16,6 +16,6 @@ def count_characters(a):
             uppercase += 1
         else:
             pass
-    print(f"Uppecase letters nr. is:{uppercase}, lowercase letters nr. is: {lowercase}.")
+    print(f"Uppercase letters nr. is: {uppercase}, lowercase letters nr. is: {lowercase}.")
 
 count_characters(a)
